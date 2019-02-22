@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DeviceColCell" customModule="SEM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="166" height="158"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="166" height="158"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aS7-f2-Xqa">
+                        <rect key="frame" x="0.0" y="0.0" width="166" height="158"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product-camera" translatesAutoresizingMaskIntoConstraints="NO" id="SYc-94-HFc">
+                                <rect key="frame" x="0.0" y="0.0" width="83" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SYc-94-HFc" secondAttribute="height" multiplier="1:1" id="QbB-IG-FIK"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yNC-eL-1Yn">
+                                <rect key="frame" x="10" y="93" width="146" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thiết bị" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zr3-x0-MRx">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Đang hoạt động" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8c-8b-1aU">
+                                        <rect key="frame" x="0.0" y="27.5" width="146" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dv6-t0-Wkb">
+                                <rect key="frame" x="83" y="0.0" width="83" height="83"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Dv6-t0-Wkb" firstAttribute="height" secondItem="SYc-94-HFc" secondAttribute="height" id="4fE-ML-y8G"/>
+                            <constraint firstItem="yNC-eL-1Yn" firstAttribute="centerX" secondItem="aS7-f2-Xqa" secondAttribute="centerX" id="5ub-tC-6y4"/>
+                            <constraint firstItem="yNC-eL-1Yn" firstAttribute="top" secondItem="SYc-94-HFc" secondAttribute="bottom" constant="10" id="AJt-Qc-syB"/>
+                            <constraint firstItem="SYc-94-HFc" firstAttribute="width" secondItem="aS7-f2-Xqa" secondAttribute="width" multiplier="1/2" id="KpL-BI-HFa"/>
+                            <constraint firstAttribute="trailing" secondItem="Dv6-t0-Wkb" secondAttribute="trailing" id="VFc-ms-zdG"/>
+                            <constraint firstItem="SYc-94-HFc" firstAttribute="leading" secondItem="aS7-f2-Xqa" secondAttribute="leading" id="abW-Lj-EX3"/>
+                            <constraint firstItem="yNC-eL-1Yn" firstAttribute="width" secondItem="aS7-f2-Xqa" secondAttribute="width" constant="-20" id="bZG-qd-4y7"/>
+                            <constraint firstItem="Dv6-t0-Wkb" firstAttribute="width" secondItem="SYc-94-HFc" secondAttribute="width" id="eRv-4k-0Ri"/>
+                            <constraint firstItem="Dv6-t0-Wkb" firstAttribute="top" secondItem="SYc-94-HFc" secondAttribute="top" id="ffx-uq-YVb"/>
+                            <constraint firstItem="SYc-94-HFc" firstAttribute="top" secondItem="aS7-f2-Xqa" secondAttribute="top" id="sus-dh-lGP"/>
+                            <constraint firstAttribute="bottom" secondItem="yNC-eL-1Yn" secondAttribute="bottom" constant="10" id="wLl-sa-ZWH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="aS7-f2-Xqa" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="6jp-vY-Tor"/>
+                <constraint firstItem="aS7-f2-Xqa" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Jgt-71-duo"/>
+                <constraint firstItem="aS7-f2-Xqa" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="pwV-yA-EYx"/>
+                <constraint firstItem="aS7-f2-Xqa" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="ufF-cs-VJw"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="166" height="158"/>
+            <connections>
+                <outlet property="_imgProduct" destination="SYc-94-HFc" id="XwI-qb-wbn"/>
+                <outlet property="_lbName" destination="zr3-x0-MRx" id="KY2-S2-DBr"/>
+                <outlet property="_lbStatus" destination="N8c-8b-1aU" id="Lgv-Oh-PVh"/>
+                <outlet property="_viewStack" destination="yNC-eL-1Yn" id="aZ0-6p-Ku0"/>
+                <outlet property="_viewSwitch" destination="Dv6-t0-Wkb" id="8Zn-2J-o6D"/>
+                <outlet property="_viewbg" destination="aS7-f2-Xqa" id="FDP-qb-Qj0"/>
+            </connections>
+            <point key="canvasLocation" x="102" y="99"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="product-camera" width="701" height="500"/>
+    </resources>
+</document>

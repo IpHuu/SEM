@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Cài đặt"; ObjectID = "1en-2S-IXM"; */
+"1en-2S-IXM.text" = "Cài đặt";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6ov-4v-EYo"; */
+"6ov-4v-EYo.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "80M-tq-9px"; */
+"80M-tq-9px.text" = "Label";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "DI0-Tz-3EU"; */
+"DI0-Tz-3EU.text" = "0";
+
+/* Class = "UILabel"; text = "Sản phẩm"; ObjectID = "OrD-ly-wbE"; */
+"OrD-ly-wbE.text" = "Sản phẩm";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "TSe-Ih-zGu"; */
+"TSe-Ih-zGu.title" = "Home";
+
+/* Class = "UITabBarItem"; title = "Cài đặt"; ObjectID = "TeN-2Q-SsR"; */
+"TeN-2Q-SsR.title" = "Cài đặt";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Zpi-Yy-1vu"; */
+"Zpi-Yy-1vu.text" = "0";
+
+/* Class = "UITabBarItem"; title = "Sản phẩm"; ObjectID = "aIv-KY-582"; */
+"aIv-KY-582.title" = "Sản phẩm";
+
+/* Class = "UILabel"; text = "Dịch vụ"; ObjectID = "g7w-ba-IWG"; */
+"g7w-ba-IWG.text" = "Dịch vụ";
+
+/* Class = "UITabBarItem"; title = "Dịch vụ"; ObjectID = "kXV-aU-FRp"; */
+"kXV-aU-FRp.title" = "Dịch vụ";
+
+/* Class = "UILabel"; text = "Tài khoản"; ObjectID = "rGq-xw-X3q"; */
+"rGq-xw-X3q.text" = "Tài khoản";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "sFH-Km-N2E"; */
+"sFH-Km-N2E.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Tài khoản"; ObjectID = "vnF-VG-fw0"; */
+"vnF-VG-fw0.title" = "Tài khoản";
+
+/* Class = "UILabel"; text = "Thông tin tài khoản"; ObjectID = "wDP-60-HYP"; */
+"wDP-60-HYP.text" = "Thông tin tài khoản";
+
+/* Class = "UILabel"; text = "Cài đặt"; ObjectID = "yMf-G5-hhG"; */
+"yMf-G5-hhG.text" = "Cài đặt";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "zqC-P5-7ti"; */
+"zqC-P5-7ti.text" = "Label";

@@ -1,0 +1,6 @@
+framework module Pods_SEMTests {
+  umbrella header "Pods-SEMTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

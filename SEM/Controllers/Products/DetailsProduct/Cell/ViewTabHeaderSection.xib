@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewTabHeaderSection" customModule="SEM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Mn-GZ-0vM">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0a-aJ-rkV">
+                    <rect key="frame" x="0.0" y="-0.5" width="125" height="43"/>
+                    <state key="normal" title="Giới thiệu">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d3O-NR-ZgX">
+                    <rect key="frame" x="124" y="-0.5" width="1" height="43"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="IvG-fl-JI1"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3m-3g-kCf">
+                    <rect key="frame" x="125" y="-0.5" width="125" height="43"/>
+                    <state key="normal" title="Thông số">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="90m-F3-BL9">
+                    <rect key="frame" x="249" y="-0.5" width="1" height="43"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="ViF-n8-TG2"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqR-CV-dvn">
+                    <rect key="frame" x="250" y="-0.5" width="125" height="43"/>
+                    <state key="normal" title="Đánh giá">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lqR-CV-dvn" firstAttribute="leading" secondItem="n3m-3g-kCf" secondAttribute="trailing" id="1rP-WX-DU4"/>
+                <constraint firstItem="lqR-CV-dvn" firstAttribute="width" secondItem="n3m-3g-kCf" secondAttribute="width" id="4gR-TD-Mke"/>
+                <constraint firstItem="a0a-aJ-rkV" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="4pX-0w-cIF"/>
+                <constraint firstItem="2Mn-GZ-0vM" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="Ajx-Zo-Fc7"/>
+                <constraint firstItem="lqR-CV-dvn" firstAttribute="centerY" secondItem="n3m-3g-kCf" secondAttribute="centerY" id="BWR-Km-175"/>
+                <constraint firstItem="d3O-NR-ZgX" firstAttribute="centerY" secondItem="a0a-aJ-rkV" secondAttribute="centerY" id="E3N-Wj-HFF"/>
+                <constraint firstItem="lqR-CV-dvn" firstAttribute="height" secondItem="n3m-3g-kCf" secondAttribute="height" id="F5Y-90-LbX"/>
+                <constraint firstItem="90m-F3-BL9" firstAttribute="trailing" secondItem="n3m-3g-kCf" secondAttribute="trailing" id="FOG-zo-M5g"/>
+                <constraint firstItem="90m-F3-BL9" firstAttribute="centerY" secondItem="n3m-3g-kCf" secondAttribute="centerY" id="Lyn-06-AJs"/>
+                <constraint firstItem="2Mn-GZ-0vM" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="MsH-sE-EZN"/>
+                <constraint firstItem="n3m-3g-kCf" firstAttribute="leading" secondItem="a0a-aJ-rkV" secondAttribute="trailing" id="Qdi-Qq-73z"/>
+                <constraint firstItem="d3O-NR-ZgX" firstAttribute="height" secondItem="a0a-aJ-rkV" secondAttribute="height" id="Qho-ws-7TJ"/>
+                <constraint firstItem="a0a-aJ-rkV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="bf2-44-CaD"/>
+                <constraint firstItem="n3m-3g-kCf" firstAttribute="centerY" secondItem="a0a-aJ-rkV" secondAttribute="centerY" id="eAQ-MV-7Mh"/>
+                <constraint firstItem="a0a-aJ-rkV" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="fSh-dl-eon"/>
+                <constraint firstItem="a0a-aJ-rkV" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1/3" id="hDb-S0-oAl"/>
+                <constraint firstItem="n3m-3g-kCf" firstAttribute="height" secondItem="a0a-aJ-rkV" secondAttribute="height" id="kAR-xi-Imb"/>
+                <constraint firstItem="2Mn-GZ-0vM" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="mjQ-Aa-A5U"/>
+                <constraint firstItem="d3O-NR-ZgX" firstAttribute="trailing" secondItem="a0a-aJ-rkV" secondAttribute="trailing" id="pG1-1M-RgC"/>
+                <constraint firstItem="n3m-3g-kCf" firstAttribute="width" secondItem="a0a-aJ-rkV" secondAttribute="width" id="pxW-ju-7ZW"/>
+                <constraint firstItem="2Mn-GZ-0vM" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="sWJ-RX-AzX"/>
+                <constraint firstItem="90m-F3-BL9" firstAttribute="height" secondItem="n3m-3g-kCf" secondAttribute="height" id="zFU-1j-ddv"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="_btnEvaluate" destination="lqR-CV-dvn" id="V0u-pD-duL"/>
+                <outlet property="_btnInfo" destination="n3m-3g-kCf" id="CP9-ym-iBP"/>
+                <outlet property="_btnIntroduction" destination="a0a-aJ-rkV" id="VMo-dR-xvR"/>
+                <outlet property="_viewBg" destination="2Mn-GZ-0vM" id="BWZ-BH-I4k"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="364.5"/>
+        </view>
+    </objects>
+</document>

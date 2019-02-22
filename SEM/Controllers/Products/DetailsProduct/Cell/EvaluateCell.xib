@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="94" id="KGk-i7-Jjw" customClass="EvaluateCell" customModule="SEM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcz-Ko-Dcc">
+                        <rect key="frame" x="0.0" y="10" width="320" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6rX-JA-uZM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSl-jD-wFG" customClass="AARatingBar" customModule="AARatingBar">
+                        <rect key="frame" x="85" y="41" width="150" height="30"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="FSl-jD-wFG" secondAttribute="height" multiplier="5:1" id="Tfv-UQ-nxA"/>
+                            <constraint firstAttribute="height" constant="30" id="hYr-M5-P0b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xcz-Ko-Dcc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0ti-zl-v3H"/>
+                    <constraint firstItem="FSl-jD-wFG" firstAttribute="centerX" secondItem="Xcz-Ko-Dcc" secondAttribute="centerX" id="AAL-ff-2C3"/>
+                    <constraint firstItem="Xcz-Ko-Dcc" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="BOl-9e-jRc"/>
+                    <constraint firstItem="Xcz-Ko-Dcc" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="SSQ-M7-8OD"/>
+                    <constraint firstItem="FSl-jD-wFG" firstAttribute="top" secondItem="Xcz-Ko-Dcc" secondAttribute="bottom" constant="10" id="aJ2-va-26O"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="_lbTitle" destination="Xcz-Ko-Dcc" id="fLU-5a-j1f"/>
+                <outlet property="_viewRating" destination="FSl-jD-wFG" id="7nw-e8-psS"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="77"/>
+        </tableViewCell>
+    </objects>
+</document>

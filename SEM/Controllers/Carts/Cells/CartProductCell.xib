@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="111" id="KGk-i7-Jjw" customClass="CartProductCell" customModule="SEM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="110.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product-camera" translatesAutoresizingMaskIntoConstraints="NO" id="2e9-ES-Cse">
+                        <rect key="frame" x="20" y="10" width="90.5" height="90.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2e9-ES-Cse" secondAttribute="height" multiplier="1:1" id="Of1-PQ-ixF"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="d4b-3J-5eD">
+                        <rect key="frame" x="120.5" y="24.5" width="67.5" height="61.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlU-wU-Neo">
+                                <rect key="frame" x="0.0" y="0.0" width="60" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cinnolab" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHE-gC-k0C">
+                                <rect key="frame" x="0.0" y="20.5" width="67.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,000đ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Bz-gb-6eG">
+                                <rect key="frame" x="0.0" y="41" width="55" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cag-Jf-gCI">
+                        <rect key="frame" x="286" y="72.5" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="GI2-ee-Klw"/>
+                            <constraint firstAttribute="height" constant="30" id="shi-Zi-gHJ"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jgA-NP-zGn">
+                        <rect key="frame" x="255" y="75.5" width="25" height="25"/>
+                        <state key="normal" backgroundImage="ic_reduction"/>
+                        <connections>
+                            <action selector="btnMinusPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nWA-gl-Qb7"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgW-uy-qs8">
+                        <rect key="frame" x="322" y="75.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="DOe-uS-Bc7"/>
+                            <constraint firstAttribute="width" constant="25" id="R65-f4-kpB"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="ic_increase"/>
+                        <connections>
+                            <action selector="btnPlusPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="JbK-RA-vVz"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jgA-NP-zGn" firstAttribute="centerY" secondItem="Cag-Jf-gCI" secondAttribute="centerY" id="5T6-gJ-V7w"/>
+                    <constraint firstItem="d4b-3J-5eD" firstAttribute="centerY" secondItem="2e9-ES-Cse" secondAttribute="centerY" id="9qf-cN-gvg"/>
+                    <constraint firstItem="2e9-ES-Cse" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="D5D-O3-mW4"/>
+                    <constraint firstItem="mgW-uy-qs8" firstAttribute="leading" secondItem="Cag-Jf-gCI" secondAttribute="trailing" constant="6" id="Hbf-b6-BMM"/>
+                    <constraint firstItem="2e9-ES-Cse" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" constant="-20" id="IYQ-dX-Hq8"/>
+                    <constraint firstItem="mgW-uy-qs8" firstAttribute="bottom" secondItem="2e9-ES-Cse" secondAttribute="bottom" id="LDO-mQ-4Aj"/>
+                    <constraint firstItem="Cag-Jf-gCI" firstAttribute="leading" secondItem="jgA-NP-zGn" secondAttribute="trailing" constant="6" id="QLj-nH-XRg"/>
+                    <constraint firstAttribute="trailing" secondItem="mgW-uy-qs8" secondAttribute="trailing" constant="20" id="WH6-P4-pgO"/>
+                    <constraint firstItem="jgA-NP-zGn" firstAttribute="height" secondItem="mgW-uy-qs8" secondAttribute="height" id="ZRk-dN-QoB"/>
+                    <constraint firstItem="jgA-NP-zGn" firstAttribute="width" secondItem="mgW-uy-qs8" secondAttribute="width" id="dyy-t9-g2v"/>
+                    <constraint firstItem="Cag-Jf-gCI" firstAttribute="centerY" secondItem="mgW-uy-qs8" secondAttribute="centerY" id="prw-37-tl9"/>
+                    <constraint firstItem="d4b-3J-5eD" firstAttribute="leading" secondItem="2e9-ES-Cse" secondAttribute="trailing" constant="10" id="qL9-eW-dfB"/>
+                    <constraint firstItem="2e9-ES-Cse" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="uqT-Zf-JEc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="_btnIncrease" destination="mgW-uy-qs8" id="Nmp-28-fVj"/>
+                <outlet property="_btnReduction" destination="jgA-NP-zGn" id="gih-aG-YRC"/>
+                <outlet property="_imgProduct" destination="2e9-ES-Cse" id="3e0-Yb-q7J"/>
+                <outlet property="_lbDescription" destination="vHE-gC-k0C" id="c4a-1s-ztJ"/>
+                <outlet property="_lbName" destination="MlU-wU-Neo" id="rOR-RE-bSS"/>
+                <outlet property="_lbPrice" destination="1Bz-gb-6eG" id="1A8-Ug-Jtb"/>
+                <outlet property="_tfQuantity" destination="Cag-Jf-gCI" id="VlW-ee-XPb"/>
+            </connections>
+            <point key="canvasLocation" x="1.5" y="113.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_increase" width="201" height="201"/>
+        <image name="ic_reduction" width="225" height="225"/>
+        <image name="product-camera" width="701" height="500"/>
+    </resources>
+</document>

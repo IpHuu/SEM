@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  SEM
+
+  Created by Ipman on 12/27/18.
+  Copyright © 2018 Ipman. All rights reserved.
+*/
+"TEXT_SIGNIN"               = "Sign In";
+"TEXT_SIGNUP"               = "Sign Up";
+"TEXT_PHONENUMBER"          = "Phone number";
+"TEXT_PASSWORD"             = "Password";
+"TEXT_ENTER_PHONE"          = "Enter your phone number";
+"TEXT_ENTER_PASSWORD"       = "Enter your password";
+"TEXT_YOURNAME"             = "Your's name";
+"TEXT_CONFIRMPASSWORD"      = "Confirm password";
+"TEXT_FORGOTPASSWORD"       = "I forgot my password";
+"TEXT_OR_SIGNIN"            = "Or sign in with";
+"TEXT_NOT_ACCOUNT"          = "You do not have an account ?";
+"TEXT_CONTENT_1"            = "Discover interesting things from LeLa";
+
+"TEXT_CONFIRM_CODE"             = "Account Authentication";
+"TEXT_CONTENT_CONFIRM_CODE_1"   = "Enter the validation code that was sent to the";
+"TEXT_CONTENT_CONFIRM_CODE_2"   = "phone number you registered";
+"TEXT_NOT_CODE"                 = "I have not received the code yet";
+"TEXT_COUNTINUE"                = "Countiune";
+"TEXT_COMPLETION_REGISTER"      = "Completion Register";
+"TEXT_CREATE_PASSWORD"          = "Create Password";
+"TEXT_DESCRIPTION_REGISTER_PASSWORD" = "Create password with at least 6 characters";
+"TEXT_YES" = "Yes";
+"TEXT_NO"  = "No";
+
+//Validator
+"MISSING_NAME_MESSAGE"              = "Please enter your name";
+"MISSING_PHONE_NUMBER_MESSAGE"      = "Please enter a phone number";
+"INVALID_PHONE_NUMBER_MESSAGE"      = "Number of wrong format điện thoại";
+"NON_DIGIT_PHONE_NUMBER_MESSAGE"    = "Number phone contains no character";
+
+"MISSING_PASSWORD_MESSAGE"          = "Please enter a password";
+"NOT_MEET_MINIMUM_PASSWORD_MESSAGE" = "Password must be more than 6 characters";
+"INVALID_PASSWORD_MESSAGE"          = "Invalid password";
+
+"MISSING_CONFIRM_PASSWORD_MESSAGE"      = "Please enter a confirmation password";
+"NOT_MEET_MINIMUM_PASSWORD_MESSAGE"     = "Confirmation password must be more than 6 characters";
+"INVALID_CONFIRM_PASSWORD_MESSAGE"      = "Password is invalid";
+"NOT_MATCH_CONFIRM_PASSWORD_MESSAGE"    = "Passwords do not match";
+
+"MISSING_EMAIL_MESSAGE"             = "Please enter an email";
+"INVALID_EMAIL_MESSAGE"             = "Invalid email";
+
+"INVALID_OTP_CODE_MESSAGE"          = "OTP code is 6 digits";

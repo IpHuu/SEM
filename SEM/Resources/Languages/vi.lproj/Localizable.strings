@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+  SEM
+
+  Created by Ipman on 12/27/18.
+  Copyright © 2018 Ipman. All rights reserved.
+*/
+"TEXT_SIGNIN"               = "Đăng nhập";
+"TEXT_SIGNUP"               = "Đăng ký";
+"TEXT_PHONENUMBER"          = "Số điện thoại";
+"TEXT_PASSWORD"             = "Mật khẩu";
+"TEXT_ENTER_PHONE"          = "Nhập số điện thoại";
+"TEXT_ENTER_PASSWORD"       = "Nhập mật khẩu";
+"TEXT_YOURNAME"             = "Tên của bạn";
+"TEXT_CONFIRMPASSWORD"      = "Xác nhận mật khẩu";
+"TEXT_FORGOTPASSWORD"       = "Tôi đã quên mật khẩu";
+"TEXT_OR_SIGNIN"            = "Hoặc đăng nhập bằng";
+"TEXT_NOT_ACCOUNT"          = "Bạn không có tài khoản ?";
+"TEXT_CONTENT_1"            = "Khám phá điều thú vị từ LêLa";
+
+"TEXT_CONFIRM_CODE"             = "Xác thực tài khoản";
+"TEXT_CONTENT_CONFIRM_CODE_1"   = "Nhập mã xác thực vừa được gửi đến số điện thoại";
+"TEXT_CONTENT_CONFIRM_CODE_2"   = "mà bạn đăng kí";
+"TEXT_NOT_CODE"                 = "Tôi chưa nhận được mã";
+"TEXT_COUNTINUE"                = "Tiếp tục";
+"TEXT_COMPLETION_REGISTER"      = "Hoàn tất đăng kí";
+"TEXT_CREATE_PASSWORD"          = "Tạo mật khẩu";
+"TEXT_DESCRIPTION_REGISTER_PASSWORD" = "Tạo mật khẩu với ít nhất 6 kí tự";
+
+"TEXT_YES" = "Có";
+"TEXT_NO"  = "Không";
+//Validator
+"MISSING_NAME_MESSAGE"              = "Vui lòng nhập họ và tên";
+"MISSING_PHONE_NUMBER_MESSAGE"      = "Vui lòng nhập số điện thoại";
+"INVALID_PHONE_NUMBER_MESSAGE"      = "Số điện thoại không đúng định dạng";
+"NON_DIGIT_PHONE_NUMBER_MESSAGE"    = "Số điện thoại không bao gồm kí tự";
+
+"MISSING_PASSWORD_MESSAGE"          = "Vui lòng nhập mật khẩu";
+"NOT_MEET_MINIMUM_PASSWORD_MESSAGE" = "Mật khẩu phải nhiều hơn 6 kí tự";
+"INVALID_PASSWORD_MESSAGE"          = "Mật khẩu không hợp lệ";
+
+"MISSING_CONFIRM_PASSWORD_MESSAGE"      = "Vui lòng nhập mật khẩu xác nhận";
+"NOT_MEET_MINIMUM_PASSWORD_MESSAGE"     = "Mật khẩu xác nhận phải nhiều hơn 6 kí tự";
+"INVALID_CONFIRM_PASSWORD_MESSAGE"      = "Mật khẩu xác nhận không hợp lệ";
+"NOT_MATCH_CONFIRM_PASSWORD_MESSAGE"    = "Mật khẩu xác nhận không trùng khớp";
+
+"MISSING_EMAIL_MESSAGE"             = "Vui lòng nhập email";
+"INVALID_EMAIL_MESSAGE"             = "Email không hợp lệ";
+
+"INVALID_OTP_CODE_MESSAGE"          = "Mã OTP gồm 6 chứ số";
+
