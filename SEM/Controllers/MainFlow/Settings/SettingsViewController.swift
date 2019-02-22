@@ -24,6 +24,7 @@ class SettingsViewController: UIViewController {
         
         mqtt = MQTTManager.sharedInstance.initMQTT(username: "", password: "")
         mqtt.delegate = self
+        print("Update for branch dev")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
